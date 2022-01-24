@@ -1,0 +1,6 @@
+Aula 2.2 
+Comandos arepresentados : 
+-git log
+-git ignore
+-git push
+-git pull
