@@ -1,0 +1,12 @@
+Modelo Cliente-Servidor:
+Passo 1: cliente: recebe a interação do usuário e traduz em requsição para outro computador = > servidor web;
+Passo 2: Servidor web : armazena, processa e entrega a pagina ao cliente;
+Passo 3: HTTP = Esperar por requisições HTTP em uma porta específica, realizar as ações requisitadas quando uma requisição chegar, e enviar a resposta via HTTP;
+Passo 4: TCP/IP = divide os dados em pacote - > aplicações, transporte, rede e interface;
+Passo 5: ISP = apos ser separado em pacote  -> acesso ao provedor da internet
+Passo 6: DNS = O provedor acessará a base de dados = > relaciona nome nominal + IP;
+Passo 7: site Google 
+
+
+cliente ==> servidor web ==> HTTP => TCP/IP - dividir em pacotes {aplicações, trasnporte, rede e interface} ==> ISP - acesso ao provedor da internet ==> DNS === relaciona nome nominal + IP ==> Site Google!
+
