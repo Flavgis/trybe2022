@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("Odontodactylus_scyllarus1.jpg");
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    
+
+}
+img{
+    width: 40px;
+}
+input[type="checkbox"]
+{
+    display: none;
+
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+
+
+}
+#header{
+    font-size: 36px;
+    border: 3px solid lightslategrey;
+    background-color: lightslategrey
+}
+#nav{
+    font-size: 20px;    
+    background-color: rgba(16, 16, 16, .5);
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+    transition: all.5s;
+}
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+a:hover{
+   background-color: rgb(176, 224, 230); 
+   color: black;
+}
+label{
+
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+h1{
+    position: absolute;
+    left:450px;
+    top: 40px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+    text-align: center;
+}
+#pagina-principal{
+    position: absolute;
+    left: 350px;px;
+    top: 300px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+#sobre{
+    position: absolute;
+    left: 350px;px;
+    top: 500px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+#contato{
+    position: absolute;
+    left: 350px;px;
+    top: 500px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+}
