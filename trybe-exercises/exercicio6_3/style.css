@@ -1,0 +1,37 @@
+/* Flex Axis = O layout do Flexbox é baseado em flex-directions (direções flex). Essas direções são determinadas por eixos. Os flex items são dispostos dentro de um Flex container seguindo o Main Axis . O Main Axis tem a direção definida pela propriedade flex-direction , que pode ser horizontal , quando flex-direction é row ou row-reverse , e vertical , quando é column ou column-reverse .
+
+Flex Lines = São linhas imaginárias usadas para agrupamento e alinhamento de flex items dentro de seus respectivos containers. Um Flex container pode ser single-line(dispõe todos os seus filhos - flex items - em uma única linha) ou multi-line (quebra seus flex items em múltiplas linhas) dependendo da propriedade flex-wrap.
+
+display : flex 
+* não alteramos o display nos filhos - adicionado no container
+*padrão é horizontal (row) nao dando espaço entre um elemento e outro!
+
+flex-direction : padrão é row (horizontal); column(o eixo principal passa a ser o eixo vertical; row-reverse (inverte a ordem dos itens); column-reverse (inverte a ordem dos itens).
+
+flex-wrap : controle como os intens dentro do container são quebrados, em padrão rowrap. 
+* para quebrar para linha de baixo - wrap 
+* para quebrar para linha de baixo e inverter a ordem - wrap-reverse. 
+
+flex-flow  : junta as duas propriedades - row/column wrap 
+
+** justify-content : espaçamento entre dos flex-itens possui os seguintes valores: 
+a)flex-start:  alinha os itens ao início do container,
+b)flex-end que alinha os itens ao final do container,
+c)center que alinha os itens ao centro do container,
+d)space-between cria um espaçamento igual entre os elementos, mantendo o primeiro grudado no início e o último no final, 
+e)space-around também cria um espaçamento entre os elementos, mas os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+** aling-items : eixo transversal - alinha como um todo.aceita tias valores: 
+a)stretch , que é seu valor padrão e faz com os flex items cresçam igualmente,
+b)flex-start alinha os itens ao início,
+c)flex-end alinha os itens ao final,
+d)center alinha os itens ao centro,
+e)baseline que alinha os itens de acordo com a linha base da tipografia.
+
+** aling-content: espaçamento entre em cada uma das linhas - eixo transversal - sendo que essa propriedade só funciona caso haja mais de uma linha de flex items. Opções de alinhamento:
+a)stretch , seu valor padrão que faz com que os flex items cresçam igualmente na vertical,
+b) flex-start , alinha todas as linhas de itens ao início
+c)lex-end , que alinha todas as linhas de itens ao final,
+d)center que alinha todas as linhas ao centro
+e)space-between , que cria um espaçamento igual entre as linhas, mantendo a primeira grudada no topo e a última no bottom,
+f)space-around , que também cria um espaçamento entre as linhas, mas os espaçamentos do meio são duas vezes maiores que o top e o bottom.
