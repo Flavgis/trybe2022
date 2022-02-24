@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+ 
+  .header-container {
+    
+    background-color: #5C687C;
+    display: flex;
+    /* requisito 2
+    flex-direction: row-reverse;
+    justify-content: flex-end;*/
+
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    /*requisito 1*/
+    flex-basis: 268px;
+  }
+  
+  .menu-container {
+    display: flex;
+    /*requisito 1*/
+    flex-basis: 500px;
+    /*requisto 2* - feito por ordem*/
+    order: 1;
+    
+    /* requisito 3*/
+    flex-grow: 1;
+
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* requisito 4*/
+    align-self: center;
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*requisito 3*/
+    flex-basis: 700px;
+    /*requisito 4*/
+    flex-grow: 10;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    /*requisito 3*/
+    flex-basis: 16%;
+    /* requisito 5 - dificuldade */
+    flex-grow: 1;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* requisito 1*/
+    flex-basis: 350px;
+    /* requisito 2*/
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+  }
